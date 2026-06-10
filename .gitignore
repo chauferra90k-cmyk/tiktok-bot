@@ -1,0 +1,74 @@
+# Git ignore for TikTok Bot
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+bot.log
+debug.log
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Sessions and cookies
+cookies/
+sessions/
+*.session
+
+# Cache
+.cache/
+__pycache__/
+.pytest_cache/
+
+# User data
+user_data/
+configs/
+data/
+
+# Playwright
+.playwright/
+
+# OS
+Thumbs.db
+.directory
